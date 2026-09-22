@@ -1,5 +1,113 @@
 <!DOCTYPE html>
-<html>
-<head><title>Dyooni</title></head>
-<body><h1>Dyooni App</h1></body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dyooni - Debt Management App</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        .container {
+            background: white;
+            border-radius: 20px;
+            padding: 50px 40px;
+            max-width: 700px;
+            width: 100%;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        .subtitle {
+            color: #667eea;
+            font-size: 1.2em;
+            margin-bottom: 30px;
+            font-weight: bold;
+        }
+        p {
+            color: #555;
+            line-height: 1.8;
+            margin-bottom: 20px;
+            text-align: left;
+        }
+        .features {
+            text-align: left;
+            background: #f8f9fa;
+            padding: 20px 30px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+        .features li {
+            margin: 10px 0;
+            color: #333;
+            list-style: none;
+        }
+        .features li:before {
+            content: "✅ ";
+            margin-right: 8px;
+        }
+        .links {
+            margin-top: 30px;
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .links a {
+            color: white;
+            background: #667eea;
+            padding: 12px 25px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: all 0.3s;
+        }
+        .links a:hover {
+            background: #764ba2;
+            transform: translateY(-2px);
+        }
+        .footer {
+            margin-top: 30px;
+            color: #999;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Dyooni</h1>
+        <p class="subtitle">Manage Your Debts & Accounts</p>
+        
+        <p>Dyooni is a simple and powerful application for managing personal and business debts. Track debit and credit transactions, monitor balances, and generate professional reports easily.</p>
+        
+        <div class="features">
+            <li>Track debts and credits</li>
+            <li>Import contacts easily</li>
+            <li>Generate PDF & Excel reports</li>
+            <li>Backup to Google Drive</li>
+            <li>Supports 20 languages</li>
+            <li>Scheduled reminders</li>
+        </div>
+        
+        <div class="links">
+            <a href="privacy.html">Privacy Policy</a>
+            <a href="terms.html">Terms of Service</a>
+        </div>
+        
+        <div class="footer">
+            © 2026 AtheerSoft. All rights reserved.
+        </div>
+    </div>
+</body>
 </html>
